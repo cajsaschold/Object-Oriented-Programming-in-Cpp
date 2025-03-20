@@ -1,4 +1,4 @@
-# TDDE18
+# Object Oriented Programming in C++
 The assignments from the course "Programming C++" at LiU
 
 ## Time Class Implementation:  
