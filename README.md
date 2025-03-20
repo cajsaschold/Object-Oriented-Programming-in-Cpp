@@ -1,5 +1,5 @@
 # Object Oriented Programming in C++
-The assignments from the course "Programming C++" at LiU
+The projects focus on object-oriented programming (OOP), operator overloading, dynamic memory management, and unit testing using Catch2. This repository contains C++ assignments from the course "Programming C++" at Linköping University (LiU).
 
 ## Time Class Implementation:  
 **Folder:** Time_OperatorOverloading
