@@ -18,7 +18,7 @@ The projects focus on object-oriented programming (OOP), operator overloading, d
 - `Lab2.cc` – Core implementation of the lab assignment, demonstrating time operations in practice.
 
 ## Sorted List Implementation
-**Folder:** SortedList_Overloading
+**Folder:** `SortedList_Overloading`
 - Implements a Sorted List data structure using dynamic memory allocation and linked list operations.
 - Supports insert, remove, clear, and lookup operations while maintaining sorted order.
 - Uses operator overloading for assignment (=) and copy/move constructors.
@@ -28,15 +28,15 @@ The projects focus on object-oriented programming (OOP), operator overloading, d
 - Unit testing with Catch2 framework, verifying all methods through structured test cases.
 
 **Files:**  
-- sorted_list.h – Defines the Sorted_List class, including member functions, operator overloads, and private linked list structure.
-- sorted_list.cc – Implements the Sorted_List class methods, handling insertions, deletions, and traversal.
-- test_sorted_list.cc – Unit tests for Sorted_List, ensuring correctness of all operations.
-- test_main.cc – Main test runner for executing Catch2-based test cases.
-- catch.hpp – The Catch2 testing framework for modular and structured unit testing.
+- `sorted_list.h` – Defines the Sorted_List class, including member functions, operator overloads, and private linked list structure.
+- `sorted_list.cc` – Implements the Sorted_List class methods, handling insertions, deletions, and traversal.
+- `test_sorted_list.cc` – Unit tests for Sorted_List, ensuring correctness of all operations.
+- `test_main.cc` – Main test runner for executing Catch2-based test cases.
+- `catch.hpp` – The Catch2 testing framework for modular and structured unit testing.
 
 
 ## Electrical Circuit Simulation
-**Folder:** Circuit_Simulation
+**Folder:** `Circuit_Simulation`
 - Implements a circuit simulation framework using object-oriented programming (OOP) principles in C++.
 - Defines an abstract base class (Component) for electrical components, with derived classes for Battery, Resistor, and Capacitor.
 - Supports polymorphism, allowing components to be handled generically within a Circuit class.
@@ -45,15 +45,15 @@ The projects focus on object-oriented programming (OOP), operator overloading, d
 - Prints circuit status and component values at specified intervals.
 
 **Files:**
-- component.h / component.cc – Defines the base Component class and derived classes (Battery, Resistor, Capacitor).
-- circuit.h / circuit.cc – Implements the Circuit class, managing component connections and simulation.
-- battery.cc – Defines the behavior of a battery in the circuit.
-- resistor.cc – Implements Ohm’s Law for resistors.
-- capacitor.cc – Models capacitive charge storage and current flow.
-- main.cc – Entry point for executing the circuit simulation.
+- `component.h` / component.cc – Defines the base Component class and derived classes (Battery, Resistor, Capacitor).
+- `circuit.h` / circuit.cc – Implements the Circuit class, managing component connections and simulation.
+- `battery.cc` – Defines the behavior of a battery in the circuit.
+- `resistor.cc` – Implements Ohm’s Law for resistors.
+- `capacitor.cc` – Models capacitive charge storage and current flow.
+- `main.cc` – Entry point for executing the circuit simulation.
 
 ## Text Editor Implementation
-**Folder:** Text_Editor
+**Folder:** `Text_Editor`
 - Implements a basic text editor in C++ with functions for string manipulation and text processing.
 - Utilizes dynamic memory management and efficient string operations for handling user input.
 - Encapsulates text-processing logic within modular functions, improving code readability and maintainability.
@@ -61,5 +61,5 @@ The projects focus on object-oriented programming (OOP), operator overloading, d
 - Uses object-oriented programming (OOP) principles to structure text operations efficiently.
 
 **Files:**
-- text_editor.cc – Main file handling user interactions and command processing.
-- text_functions.cc – Implements core text manipulation functions, such as search, replace, and formatting.
+- `text_editor.cc` – Main file handling user interactions and command processing.
+- `text_functions.cc` – Implements core text manipulation functions, such as search, replace, and formatting.
