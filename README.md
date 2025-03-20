@@ -3,7 +3,6 @@ The assignments from the course "Programming C++" at LiU
 
 ## Time Class Implementation:  
 **Folder:** Time_OperatorOverloading
-
 - Operator overloading for arithmetic (+, -, ++, --) and comparison (==, !=, <, >).
 - Arithmetic operations to increment, decrement, add, or subtract seconds from a time instance.
 - Input/output handling using overloaded << and >> for easy stream-based interaction.
@@ -34,3 +33,21 @@ The assignments from the course "Programming C++" at LiU
 - test_sorted_list.cc – Unit tests for Sorted_List, ensuring correctness of all operations.
 - test_main.cc – Main test runner for executing Catch2-based test cases.
 - catch.hpp – The Catch2 testing framework for modular and structured unit testing.
+
+
+## Electrical Circuit Simulation
+**Folder:** Cpp_Circuit_Simulation
+- Implements a circuit simulation framework using object-oriented programming (OOP) principles in C++.
+- Defines an abstract base class (Component) for electrical components, with derived classes for Battery, Resistor, and Capacitor.
+- Supports polymorphism, allowing components to be handled generically within a Circuit class.
+- Uses dynamic memory management to store and manipulate electrical components in a circuit.
+- Simulates electrical behavior over time with numerical integration (step() method).
+- Prints circuit status and component values at specified intervals.
+
+**Files:**
+- component.h / component.cc – Defines the base Component class and derived classes (Battery, Resistor, Capacitor).
+- circuit.h / circuit.cc – Implements the Circuit class, managing component connections and simulation.
+- battery.cc – Defines the behavior of a battery in the circuit.
+- resistor.cc – Implements Ohm’s Law for resistors.
+- capacitor.cc – Models capacitive charge storage and current flow.
+- main.cc – Entry point for executing the circuit simulation.
