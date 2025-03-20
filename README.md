@@ -2,7 +2,7 @@
 The projects focus on object-oriented programming (OOP), operator overloading, dynamic memory management, and unit testing using Catch2. This repository contains C++ assignments from the course "Programming C++" at Linköping University (LiU).
 
 ## Time Class Implementation:  
-**Folder:** Time_OperatorOverloading
+**Folder:** `Time_OperatorOverloading`
 - Operator overloading for arithmetic (+, -, ++, --) and comparison (==, !=, <, >).
 - Arithmetic operations to increment, decrement, add, or subtract seconds from a time instance.
 - Input/output handling using overloaded << and >> for easy stream-based interaction.
@@ -12,10 +12,10 @@ The projects focus on object-oriented programming (OOP), operator overloading, d
 - Unit testing with Catch2 to validate all functionality, ensuring correctness through automated test cases.
 
 **Files:**  
-- time.h – Defines the Time class, including member functions and operator overloads.
-- time_test.cc – Contains unit tests to verify the correctness of the Time class.
-- catch.hpp – The Catch2 testing framework for structured and modular testing.
-- Lab2.cc – Core implementation of the lab assignment, demonstrating time operations in practice.
+- `time.h` – Defines the Time class, including member functions and operator overloads.
+- `time_test.cc` – Contains unit tests to verify the correctness of the Time class.
+- `catch.hpp` – The Catch2 testing framework for structured and modular testing.
+- `Lab2.cc` – Core implementation of the lab assignment, demonstrating time operations in practice.
 
 ## Sorted List Implementation
 **Folder:** SortedList_Overloading
