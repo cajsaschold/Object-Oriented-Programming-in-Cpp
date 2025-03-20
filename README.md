@@ -1,7 +1,7 @@
 # TDDE18
 The assignments from the course "Programming C++" at LiU
 
-### Time Class Implementation:  
+## Time Class Implementation:  
 **Folder:** Cpp_Time_OperatorOverloading
 
 - Operator overloading for arithmetic (+, -, ++, --) and comparison (==, !=, <, >).
