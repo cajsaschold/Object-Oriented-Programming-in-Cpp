@@ -36,7 +36,7 @@ The assignments from the course "Programming C++" at LiU
 
 
 ## Electrical Circuit Simulation
-**Folder:** Cpp_Circuit_Simulation
+**Folder:** Circuit_Simulation
 - Implements a circuit simulation framework using object-oriented programming (OOP) principles in C++.
 - Defines an abstract base class (Component) for electrical components, with derived classes for Battery, Resistor, and Capacitor.
 - Supports polymorphism, allowing components to be handled generically within a Circuit class.
@@ -51,3 +51,15 @@ The assignments from the course "Programming C++" at LiU
 - resistor.cc – Implements Ohm’s Law for resistors.
 - capacitor.cc – Models capacitive charge storage and current flow.
 - main.cc – Entry point for executing the circuit simulation.
+
+## Text Editor Implementation
+**Folder:** Text_Editor
+- Implements a basic text editor in C++ with functions for string manipulation and text processing.
+- Utilizes dynamic memory management and efficient string operations for handling user input.
+- Encapsulates text-processing logic within modular functions, improving code readability and maintainability.
+- Provides functionality for inserting, deleting, searching, and modifying text dynamically.
+- Uses object-oriented programming (OOP) principles to structure text operations efficiently.
+
+**Files:**
+- text_editor.cc – Main file handling user interactions and command processing.
+- text_functions.cc – Implements core text manipulation functions, such as search, replace, and formatting.
